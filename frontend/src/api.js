@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+// export const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:5000"
+export const BASE_URL = "http://51.21.162.16:5000"
+const API_URL = `${BASE_URL}/api`;
 
 export const submitJob = async (file) => {
     const formData = new FormData();

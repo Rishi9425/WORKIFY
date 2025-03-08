@@ -12,4 +12,4 @@ const JobList = ({ jobs, onDelete, onRetry }) => {
     );
 };
 
-export default JobList;
+export default JobList

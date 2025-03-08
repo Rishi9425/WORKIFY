@@ -4,6 +4,8 @@ import JobTable from './components/JobTable';
 import JobForm from './components/JobForm';
 import { getJobs, deleteJob, submitJob } from './api'; // Import your API functions
 
+
+//This is not used anywhere
 function MainComponent() {
     const [jobs, setJobs] = useState([]);
 
